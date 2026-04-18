@@ -28,5 +28,38 @@ OS Environment: Optimized for Kali Linux
 
 
 4) Testing
-Run this to trigger a SQL Injection alert:
-`echo "DROP TABLE users;" | nc localhost 2222`
+Got it. Here is the precise, copy-paste ready Markdown for your GitHub README.md. No fluff, just the facts.
+
+HONEYGRID // IDS_v1.0
+A real-time Intrusion Detection System (IDS) featuring a multi-tier architecture for threat monitoring and geographical visualization.
+
+Tech Stack
+Frontend: React (Vite), Socket.io-client, Leaflet.js (Mapping)
+
+Backend: Node.js, Express, Socket.io, GeoIP-lite
+
+Sensor: Python 3 (Socket API, Signature Engine)
+
+Setup & Execution
+Backend: node server.js (Runs on Port 8080)
+
+Sensor: python3 sensor.py (Monitors Port 2222)
+
+Frontend: npm run dev (Dashboard UI)
+
+Simulation Commands
+Run these in a separate terminal to trigger alerts in the dashboard:
+
+SQL Injection
+echo "DROP TABLE users; --" | nc -w 1 localhost 2222
+
+XSS Attack
+echo "<script>alert('XSS')</script>" | nc -w 1 localhost 2222
+
+Directory Traversal
+echo "GET /../../etc/passwd" | nc -w 1 localhost 2222
+
+Brute Force
+echo "admin123" | nc -w 1 localhost 2222
+
+
