@@ -27,26 +27,6 @@ OS Environment: Optimized for Kali Linux
 3. **Frontend:** `npm run dev`
 
 
-4) Testing
-Got it. Here is the precise, copy-paste ready Markdown for your GitHub README.md. No fluff, just the facts.
-
-HONEYGRID // IDS_v1.0
-A real-time Intrusion Detection System (IDS) featuring a multi-tier architecture for threat monitoring and geographical visualization.
-
-Tech Stack
-Frontend: React (Vite), Socket.io-client, Leaflet.js (Mapping)
-
-Backend: Node.js, Express, Socket.io, GeoIP-lite
-
-Sensor: Python 3 (Socket API, Signature Engine)
-
-Setup & Execution
-Backend: node server.js (Runs on Port 8080)
-
-Sensor: python3 sensor.py (Monitors Port 2222)
-
-Frontend: npm run dev (Dashboard UI)
-
 Simulation Commands
 Run these in a separate terminal to trigger alerts in the dashboard:
 
